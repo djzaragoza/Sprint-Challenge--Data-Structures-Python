@@ -1,4 +1,4 @@
-class Node:  
+class Node:  # node class given 
     def __init__(self, value=None, next_node=None):
         self.value = value
         self.next_node = next_node
@@ -12,7 +12,7 @@ class Node:
     def set_next(self, new_next):
         self.next_node = new_next
 
-class LinkedList:
+class LinkedList: # Linked List class given 
     def __init__(self):
         self.head = None
 
@@ -46,7 +46,7 @@ class LinkedList:
     #   ## previous node becomes the current_node and current_node becomes next node
     #   ## head moves to previous node 
     
-    #   ## ran test and returned successful with runtime o f .011s!
+    #   ## ran test and returned successful with runtime of .011s!
     
         prev = None
         node = None
